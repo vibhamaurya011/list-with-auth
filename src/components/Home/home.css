@@ -1,0 +1,74 @@
+.home{
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #990ef5, #cc80ff);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #9900ff;
+    padding: 15px;
+}
+.listItems{
+    margin: 35px auto;
+    min-width: 480px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.listItems form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+#addData{
+    padding: 5px 25px;
+    width: 80%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 100ms;
+    border: .5px solid rgb(210, 210, 210);
+}
+#addBtn{
+    padding: 5px 25px;
+    outline: none;
+    border: none;
+    background-color: #9900ff;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 100ms;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+table th{
+    padding: 8px 5px;
+    text-align: left;
+    background-color:   #9900ff;
+    color: white;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
